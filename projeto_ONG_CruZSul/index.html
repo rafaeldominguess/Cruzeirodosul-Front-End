@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instituto Esperança - Início</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
 </head>
 
 <body>
@@ -42,63 +41,51 @@
         <section>
             <h2>Galeria de impactos:</h2>
             <!-- Galeria de fotos responsivas (Imagens ilustrativas)-->
-            <div class="gallery">
-                <img src="images/impact1.jpg" alt="Impacto 1" loading="lazy">
-                <img src="images/impact2.jpg" alt="Impacto 2" loading="lazy">
-                <img src="images/impact3.jpg" alt="Impacto 3" loading="lazy">
-                <img src="images/impact4.jpg" alt="Impacto 4" loading="lazy">
-                <img src="images/impact5.jpg" alt="Impacto 5" loading="lazy">
-                <img src="images/impact6.jpg" alt="Impacto 6" loading="lazy">
-                <img src="images/impact7.jpg" alt="Impacto 7" loading="lazy">
-                <img src="images/impact8.jpg" alt="Impacto 8" loading="lazy">
-                <img src="images/impact9.jpg" alt="Impacto 9" loading="lazy">
-                <img src="images/impact10.jpg" alt="Impacto 10" loading="lazy">
-                <img src="images/impact11.jpg" alt="Impacto 11" loading="lazy">
-                <img src="images/impact12.jpg" alt="Impacto 12" loading="lazy">
-                <img src="images/impact13.jpg" alt="Impacto 13" loading="lazy">
-                <img src="images/impact14.jpg" alt="Impacto 14" loading="lazy">
-                <img src="images/impact15.jpg" alt="Impacto 15" loading="lazy">
-                <img src="images/impact16.jpg" alt="Impacto 16" loading="lazy">
-                <img src="images/impact17.jpg" alt="Impacto 17" loading="lazy">
-                <img src="images/impact18.jpg" alt="Impacto 18" loading="lazy">
-                <img src="images/impact19.jpg" alt="Impacto 19" loading="lazy">
-                <img src="images/impact20.jpg" alt="Impacto 20" loading="lazy">
+            <div class="gallery">           <!-- Width e height para deixar o tamanho mais organizado no site -->
+                <img src="img/1.jpg" width="200" height="200" alt="Impacto 1" loading="lazy">
+                <img src="img/2.jpg" width="200" height="200" alt="Impacto 2" loading="lazy">
+                <img src="img/3.jpg" width="200" height="200" alt="Impacto 3" loading="lazy">
+                <img src="img/4.jpg" width="200" height="200" alt="Impacto 4" loading="lazy">
+                <img src="img/5.jpg" width="200" height="200" alt="Impacto 5" loading="lazy">
+                <img src="img/6.jpg" width="200" height="200" alt="Impacto 6" loading="lazy">
+                <img src="img/7.jpg" width="200" height="200" alt="Impacto 7" loading="lazy">
+                <img src="img/8.jpg" width="200" height="200" alt="Impacto 8" loading="lazy">
+                <img src="img/9.jpg" width="200" height="200" alt="Impacto 9" loading="lazy">
+                <img src="img/10.jpg" width="200" height="200" alt="Impacto 10" loading="lazy">
+                <img src="img/11.jpg" width="200" height="200" alt="Impacto 11" loading="lazy">
+                <img src="img/12.jpg" width="200" height="200" alt="Impacto 12" loading="lazy">
+                <img src="img/13.jpg" width="200" height="200" alt="Impacto 13" loading="lazy">
+                <img src="img/14.jpg" width="200" height="200" alt="Impacto 14" loading="lazy">
+                <img src="img/15.jpg" width="200" height="200" alt="Impacto 15" loading="lazy">
+                <img src="img/16.jpg" width="200" height="200" alt="Impacto 16" loading="lazy">
+                <img src="img/17.jpg" width="200" height="200" alt="Impacto 17" loading="lazy">
+                <img src="img/18.jpg" width="200" height="200" alt="Impacto 18" loading="lazy">
+                <img src="img/19.jpg" width="200" height="200" alt="Impacto 19" loading="lazy">
+                <img src="img/20.jpg" width="200" height="200" alt="Impacto 20" loading="lazy">
             </div>
         </section>
 
-        <!-- Formulário de cadastro -->
-        <section>
-            <h2> Cadastre-se na nossa plataforma: </h2>
-            <form id="form" action="#">
-                <label class="requisitos" for="name">Nome:</label>
-                <input type="text" id="name" name="name" placeholder="Seu nome" required>
 
-                <label class="requisitos" for="sobrenome">Sobrenome:</label>
-                <input type="text" id="sobrenome" name="sobrenome" placeholder="Seu sobrenome" required>
-
-                <label class="requisitos" for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
-
-                <label class="requisitos" for="atualizacoes">Deseja receber atualizações?</label>
-                <input class="radio" type="radio" name="atualizacoes" id="sim" value="sim" required> Sim
-                <input class="radio" type="radio" name="atualizacoes" id="nao" value="nao" required> Não
-                <button id="submit" type="submit">Inscrever-se</button>
-            </form>
-        </section>
-
-         <!-- Gráficos Canvas -->
+        <!-- Gráficos Canvas -->
         <section>
             <h2>Distribuição de recursos</h2>
             <canvas id="graficoPizza"></canvas>
         </section>
-</main>
+    </main>
 
 
 
-    <!-- Rodapé semântico -->
+    <!-- Rodapé contendo informações de contato -->
     <footer>
+
+        <p>Contatos: </p>
+        <p>Email:<a href="mailto:contato@institutoesperanca.org"> contato@institutoesperanca.org</a></p>
+        <p>Celular: <a href="tel:+5511999999999">(11) 99999-9999</a></p>
+        <p>Siga-nos nas redes sociais:
+            <a href="#">Facebook</a> |
+            <a href="#">Instagram</a> |
+            <a href="#">Twitter</a>
         <p>&copy; 2024 Instituto Esperança. Todos os direitos reservados.</p>
-        <p>Contato: <a href="mailto:contato@institutoesperanca.org">contato@institutoesperanca.org</a></p>
     </footer>
 
 </body>
