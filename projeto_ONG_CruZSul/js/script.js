@@ -45,7 +45,7 @@ form.addEventListener('submit', function (e) {
         // Redireciona após 5 segundos
         setTimeout(() => {
             window.location.href = 'index.html';
-        }, 5000);
+        }, 3000);
     } else {
         form.reportValidity();
     }
